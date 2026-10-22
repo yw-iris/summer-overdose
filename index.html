@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Green Archive · summer · 心怎么变都是偏向你</title>
+<meta name="description" content="Green Archive — the quiet botanical bureau. 慢一点，也没关系。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=Noto+Serif+SC:wght@300;600;700&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=1">
+</head>
+<body class="desk-on">
+
+<!-- ═══════════ 视图 A · 档案桌面（主页） ═══════════ -->
+<div id="desk" class="mode-index">
+
+  <header id="desk-top">
+    <div class="logo-card">
+      <b>GREEN ARCHIVE</b>
+      <i>summer · 盛夏</i>
+      <span>心怎么变，都是偏向你</span>
+    </div>
+    <nav class="tabs">
+      <a data-go="hole"><b>01</b> 盛夏</a>
+      <a data-go="about"><b>02</b> 关于我</a>
+      <a data-go="notice"><b>03</b> 须知</a>
+      <a data-go="script"><b>04</b> 话术</a>
+      <a data-go="reviews"><b>05</b> 板评</a>
+      <a data-go="cards"><b>06</b> 卡类</a>
+    </nav>
+    <div class="mode-panel">
+      <span class="mp-t">墙面 <i>✦</i></span>
+      <div class="mp-row">
+        <button class="on" data-mode="index">列表桌面</button>
+        <button data-mode="wall">软木板</button>
+      </div>
+      <span class="mp-t" style="margin-top:9px">视图 <i>✦</i></span>
+      <div class="mp-row view-row">
+        <button class="on" data-view="mobile">手机版</button>
+        <button data-view="desktop">电脑版</button>
+      </div>
+      <span class="mp-hint">两种墙面 · 点便签进入内页</span>
+    </div>
+  </header>
+
+  <!-- ── INDEX MODE · 拼贴堆叠桌面 ── -->
+  <div class="board-index">
+    <div class="cl-head">
+      <b>SWEET OVERDOSE</b>
+      <span>我 们 共 振 过 的 夏 天 约 等 于 永 远 · summer 的 盛 夏</span>
+    </div>
+
+    <div class="stack">
+      <span class="cl-tab">OPEN · 常驻在线</span>
+
+      <div class="cl-grid">
+        <!-- 左栏：三张夹子照片竖叠 -->
+        <div class="cl-col cl-col-l">
+          <figure class="cl-photo ph1" data-go="about">
+            <i class="clip"></i>
+            <img src="assets/river.jpg" alt="溪水慢流">
+            <span>关于我 · 溪水慢流</span>
+          </figure>
+          <figure class="cl-photo ph2">
+            <i class="clip"></i>
+            <img src="assets/sparkle.jpg" alt="小灯之海">
+            <span>sea of small lights</span>
+          </figure>
+          <figure class="cl-photo ph3">
+            <i class="clip"></i>
+            <img src="assets/blossom.jpg" alt="花市 · copenhagen">
+            <span>flower market · copenhagen</span>
+          </figure>
+        </div>
+
+        <!-- 中栏：牛皮纸垫底的档案大卡 -->
+        <div class="cl-center">
+          <div class="cl-sheet sk"></div>
+          <div class="cl-sheet ss"></div>
+          <article class="cl-main">
+            <i class="big-clip"></i>
+            <span class="tape t1"></span><span class="tape t2"></span>
+            <h1>Green Archive</h1>
+            <p>这里收着 summer 的一点信号：一句话、一张图、一段盛夏。鼠尾草绿配米黄纸，像夏日午后被风吹过的窗。</p>
+            <p>它是一个小小的提醒架：细腻的你，也有自己的珍贵；我们共振过的夏天，约等于永远。</p>
+            <dl>
+              <div><dt>档案编号</dt><dd>GA-2026-09</dd></div>
+              <div><dt>馆主</dt><dd>summer · ENFP / 常驻耳巫 / 病恋学习中</dd></div>
+              <div><dt>风格一览</dt><dd>年上高恋 / 温柔引导 / 动描·微擦</dd></div>
+              <div><dt>收录内容</dt><dd>盛夏 / 关于我 / 须知 / 话术 / 板评 / 卡类</dd></div>
+              <div><dt>状态</dt><dd>常驻 · 在线 · 盛夏长明</dd></div>
+            </dl>
+            <a class="handle" data-go="about">入座 · 关于我</a>
+            <span class="cl-round">常驻<b>·</b>在线</span>
+          </article>
+          <div class="cl-sticky">细腻的你，<br>也有自己的珍贵。</div>
+          <span class="cl-under">SEATED WITH CURIOSITY · 入座请慢一点</span>
+        </div>
+
+        <!-- 右栏：明信片 + 卡类海报 -->
+        <div class="cl-col cl-col-r">
+          <figure class="cl-postcard" data-go="hole">
+            <img src="assets/rain-flower.jpg" alt="雨窗白花">
+            <div class="pc-tx">
+              <b>POSTCARD · FROM 盛夏</b>
+              <span>盛夏 · 心怎么变都是偏向你</span>
+            </div>
+          </figure>
+          <a class="ent ent-tag" data-go="cards"><img src="assets/water-strip.jpg" alt="卡类"><span>卡类 · 两颗心，合二为一 →</span></a>
+        </div>
+
+        <!-- 底排：三个图片入口 -->
+        <div class="cl-bottom">
+          <a class="ent sn1" data-go="notice"><img src="assets/bamboo-water.jpg" alt="须知"><span>须知 · 入座前请先过目</span></a>
+          <a class="ent sn2" data-go="script"><img src="assets/ripple-grass.jpg" alt="话术"><span>话术 · 聊天实录八则 →</span></a>
+          <a class="ent sn3" data-go="reviews"><img src="assets/ripple-flower.jpg" alt="板评"><span>板评 · 来自星星的评价 ✦</span></a>
+        </div>
+      </div>
+
+      <div class="cl-receipt">THIS ARCHIVE IS A LIVING SYSTEM — 盛夏长明 · 慢一点，也没关系</div>
+    </div>
+  </div>
+
+  <!-- ── WALL MODE（DESK） ── -->
+  <div class="board-wall">
+    <h2 class="wall-title">GREEN ARCHIVE</h2>
+    <p class="wall-sub">the quiet botanical bureau — 慢一点，也没关系</p>
+    <div class="cork">
+      <!-- 入口图：与列表桌面一一对应（关于我/盛夏/须知/话术/板评/卡类），排在前面 -->
+      <div class="polaroid r-2" data-go="about"><img src="assets/river.jpg" alt=""><span>关于我 · 溪水慢流</span></div>
+      <div class="polaroid r1" data-go="hole"><img src="assets/rain-flower.jpg" alt=""><span>盛夏 · 心向于你</span></div>
+      <div class="polaroid r-1" data-go="notice"><img src="assets/bamboo-water.jpg" alt=""><span>须知 · 入座前请先过目</span></div>
+      <div class="polaroid r2" data-go="script"><img src="assets/ripple-grass.jpg" alt=""><span>话术 · 聊天实录八则</span></div>
+      <div class="polaroid r-2" data-go="reviews"><img src="assets/ripple-flower.jpg" alt=""><span>板评 · 来自星星的评价</span></div>
+      <div class="polaroid r1" data-go="cards"><img src="assets/water-strip.jpg" alt=""><span>卡类 · 两颗心合二为一</span></div>
+      <!-- 装饰：纯氛围，不入口 -->
+      <div class="polaroid r-1"><img src="assets/sparkle.jpg" alt=""><span>sea of small lights</span></div>
+      <a class="note y w1" data-go="hole">盛夏 ·<br>心怎么变都是偏向你 ~</a>
+      <div class="polaroid r2"><img src="assets/blossom.jpg" alt=""><span>flower market · copenhagen</span></div>
+      <div class="mini-poster pm-turtle r-1">
+        <em>Direction</em><u>over</u><b>SPEED</b>
+        <span>Enjoy the Journey!</span>
+      </div>
+      <a class="note y w4">ARCHIVE RULES:<br>do not rush · let it rest ·<br>grow every spring ~</a>
+    </div>
+    <p class="wall-foot">— made by yw-iris 🌿</p>
+  </div>
+
+  <footer class="desk-foot">
+    <span>© 2026 GREEN ARCHIVE</span>
+    <b>— made by yw-iris 🌿</b>
+    <span>盛夏长明 · 我们共振过的夏天</span>
+  </footer>
+</div>
+
+<!-- ═══════════ 视图 B · 卷宗内页 ═══════════ -->
+<div id="archive" hidden>
+  <canvas id="bg"></canvas>
+  <div id="grid"></div>
+  <div id="cur"></div>
+  <div id="prog"></div>
+  <button id="back-desk" title="回到档案桌面">← 档案桌面</button>
+
+
+  <main>
+    <section id="about">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷二</span> 关于我 // summer 的自我介绍</div>
+      <h2 class="title" data-fx>好久不見 · <b>summer</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> Summer/ 常驻团9 · 现在团9 · ENFP · 常驻耳巫。<br>病恋正在学习中，师从月渎 —— 我永远热爱那个盛夏。</p>
+      <div class="profile">
+        <div class="card" data-fx>
+          <div class="card-img"><img src="assets/ripple-flower.jpg" alt="蓝花涟漪 · summer 的绿色小世界"></div>
+          <div class="lab">个人信息 · PROFILE</div>
+          <div class="p-row"><span class="k">昵称</span><span class="v"><em>summer</em></span></div>
+          <div class="p-row"><span class="k">团｜常驻</span><span class="v">常驻团9 / 现在团9</span></div>
+          <div class="p-row"><span class="k">MBTI</span><span class="v"><em>ENFP</em></span></div>
+          <div class="p-row"><span class="k">常驻</span><span class="v">耳巫</span></div>
+          <div class="p-row"><span class="k">状态</span><span class="v">病恋学习中（师从月渎）</span></div>
+          <div class="flower"><i></i><i></i><i></i><span>我永远热爱那个盛夏</span></div>
+        </div>
+        <div class="card" data-fx>
+          <div class="lab">// 好久不見</div>
+          <div class="motto strike">好久不見<br>Summer/<br><br>我永远热爱那个盛夏</div>
+          <p class="lead" style="margin-top:18px">First love is snow, blue, and the selfless passion. 盛夏很长，愿意慢慢陪你走完这一程。</p>
+          <div class="sun-chip"><span>Your eyes are seventh letter of summer</span></div>
+        </div>
+      </div>
+      <div class="sec-rule"><i></i><span>RANDOM · 随机掉落</span></div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>年上高恋 <em>MAIN</em></b><span>温柔引导 · 动描 · 微擦</span></div>
+        <div class="chip"><b>钓系 <em>DROP</em></b><span>随机掉落 · 之一</span></div>
+        <div class="chip"><b>恶趣味 <em>DROP</em></b><span>随机掉落 · 之二</span></div>
+      </div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>常驻团 <em>TEAM</em></b><span>9 团 · 在线</span></div>
+        <div class="chip"><b>常驻 <em>SEAT</em></b><span>耳巫</span></div>
+        <div class="chip"><b>学习中 <em>STUDY</em></b><span>病恋 · 师从月渎</span></div>
+      </div>
+      <div class="poll" data-fx>
+        <div class="poll-q"><span class="pt">单选</span><b>你最想以哪种风格遇见 summer</b></div>
+        <div class="poll-opt"><i></i>年上高恋 · 温柔引导</div>
+        <div class="poll-opt"><i></i>钓系 · 恶趣味</div>
+        <p class="poll-hint">有不喜或喜欢的风格请提前告知 · 我们共振过的夏天约等于永远 · 心怎么变，都是偏向你</p>
+      </div>
+      </div>
+    </section>
+
+
+    <section id="hole">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷一</span> 盛夏 // SUMMER LOVE</div>
+      <h2 class="title" data-fx>盛夏 · <b>心怎么变，都是偏向你</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> 我们共振过的夏天约等于永远 ＜＜＜</p>
+      <div class="profile">
+        <div class="card" data-fx>
+          <div class="card-img"><img src="assets/rain-flower.jpg" alt="盛夏 · 雨窗白花"></div>
+          <div class="lab">盛夏 · summer 的档案</div>
+          <div class="p-row"><span class="k">名称</span><span class="v"><em>盛夏</em></span></div>
+          <div class="p-row"><span class="k">风格｜日常</span><span class="v">年上高恋｜<em>温柔引导</em></span></div>
+          <div class="p-row"><span class="k">副风格</span><span class="v"><em>动描 · 微擦</em></span></div>
+          <div class="p-row"><span class="k">随机掉落</span><span class="v">钓系 <em>恶趣味</em></span></div>
+          <div class="flower"><i></i><i></i><i></i><span>Your eyes are seventh letter of summer</span></div>
+        </div>
+        <div class="card" data-fx>
+          <div class="lab">// 盛夏 · 心怎么变都是偏向你</div>
+          <div class="motto strike">夏日漫长<br>绿意盎然<br><br>我们共振过的夏天<br><br>约等于永远</div>
+          <p class="lead" style="margin-top:18px">心怎么变，都是偏向你。盛夏很长，愿意慢慢陪你走完这一程。</p>
+          <div class="sun-chip"><span>First love is snow, blue, and the selfless passion</span></div>
+        </div>
+      </div>
+      <div class="sec-rule"><i></i><span>STYLES · 风格一览</span></div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>主风格 <em>MAIN</em></b><span>年上高恋 · 温柔引导</span></div>
+        <div class="chip"><b>副风格 <em>SUB</em></b><span>动描 · 微擦</span></div>
+        <div class="chip"><b>随机掉落 <em>DROP</em></b><span>钓系 / 恶趣味</span></div>
+      </div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>钓系</b><span>随机掉落 · 之一</span></div>
+        <div class="chip"><b>恶趣味</b><span>随机掉落 · 之二</span></div>
+        <div class="chip"><b>常驻</b><span>耳巫 · enfp</span></div>
+      </div>
+      <div class="poll" data-fx>
+        <div class="poll-q"><span class="pt">单选</span><b>你想以哪种风格，开启这段盛夏</b></div>
+        <div class="poll-opt"><i></i>年上高恋 · 温柔引导</div>
+        <div class="poll-opt"><i></i>钓系 · 恶趣味</div>
+        <p class="poll-hint">有不喜或喜欢的风格请提前告知 · 我们共振过的夏天约等于永远 · 心怎么变，都是偏向你</p>
+      </div>
+      <div class="sec-rule"><i></i><span>FULL DOC · 盛夏档案</span></div>
+      <div class="doc-links" data-fx>
+        <a class="doc-link" href="https://www.kdocs.cn/l/crAFPtKs0fEg" target="_blank" rel="noopener">
+          <span class="ico">▣</span><span>盛夏 · 完整文档</span><span class="go">↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section id="notice">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷三</span> 须知 // NOTICE</div>
+      <h2 class="title" data-fx>入座前请<b>过目须知</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> 盛夏很小，规矩很轻：<b style="color:var(--mint3)">尊重 · 双向 · 不越界</b>。</p>
+      <div class="arc-block">
+      <ul class="rules" data-fx>
+        <li>下单请认真阅读下面须知</li>
+        <li>我需要爱人的回应以及肯定，拒单请提前说明</li>
+        <li>不喜风格和雷点请提前说明，未说明不接受暗雷</li>
+        <li>我希望过程中只有彼此，现不接旁观</li>
+        <li>请勿将我俯在耳边的悄悄话告诉别人；若在我未知情情况下发现，按单费赔偿</li>
+        <li>单内默认恋人关系</li>
+        <li>小打小闹我会当做你在对我撒娇</li>
+        <li>不合适、不舒服请及时告知我</li>
+        <li>一小时前 / 十分钟（半小时 / 五分钟），超过时间婉拒任何理由退单</li>
+        <li>拒绝恶搞，互相尊重，谢谢</li>
+        <li>请放心，遇到你我很开心，不会卡点下班，时间我会控制到</li>
+        <li>阅读完以上内容欢迎走；体验过后，希望得到板宝们的评价</li>
+      </ul>
+      <p class="rules-note" data-fx>下单默认已读 ↑</p>
+      </div>
+      <div class="sec-rule"><i></i><span>WISHES · 心愿清单</span></div>
+      <div class="wishes" data-fx>
+        <div class="wish"><i></i>你的回应</div>
+        <div class="wish"><i></i>你的肯定</div>
+        <div class="wish"><i></i>你的悄悄话</div>
+        <div class="wish"><i></i>你愿意慢下来</div>
+      </div>
+      <div class="sec-rule"><i></i><span>DOCUMENTS · 完整文档</span></div>
+      <div class="doc-links" data-fx>
+        <a class="doc-link" href="https://www.kdocs.cn/l/crAFPtKs0fEg" target="_blank" rel="noopener">
+          <span class="ico">▣</span><span>盛夏 · 完整文档</span><span class="go">↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section id="script">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷四</span> 话术 // SCRIPT</div>
+      <h2 class="title" data-fx>盛夏絮语 · <b>敬请期待</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> 我们共振过的夏天约等于永远，<br>盛夏的每一句话，都偏向你。</p>
+      <div class="arc-block" data-fx>
+        <p class="lead">话术正在整理中，敬请期待。<br>盛夏的絮语稍后来临 —— 心怎么变，都是偏向你。</p>
+      </div>
+      <div class="sec-rule"><i></i><span>FULL DOC · 完整话术</span></div>
+      <div class="doc-links" data-fx>
+        <a class="doc-link" href="https://www.kdocs.cn/l/crAFPtKs0fEg" target="_blank" rel="noopener">
+          <span class="ico">▣</span><span>盛夏 · 完整文档</span><span class="go">↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷五</span> 板评 // REVIEWS</div>
+      <h2 class="title" data-fx>来自板宝的<b>评价</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> 每一条评价，都是一次盛夏共振的回声。</p>
+      <div class="arc-block" data-fx>
+        <p class="lead">板评正在收集中，等你来写第一条。<br>盛夏长明，感谢每一次相遇。</p>
+      </div>
+      <div class="sec-rule"><i></i><span>FULL DOC · 完整板评</span></div>
+      <div class="doc-links" data-fx>
+        <a class="doc-link" href="https://www.kdocs.cn/l/crAFPtKs0fEg" target="_blank" rel="noopener">
+          <span class="ico">▣</span><span>盛夏 · 完整文档</span><span class="go">↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section id="cards">
+      <div class="arc-card">
+      <div class="sec-tag" data-fx><span class="id">卷六</span> 卡类 // CARDS</div>
+      <h2 class="title" data-fx>两颗心，<b>合二为一</b></h2>
+      <p class="lead" data-fx><i>＞＞＞</i> 必须经过漫长の旅程，两颗心才能合二为一。</p>
+      <div class="profile">
+        <div class="card" data-fx>
+          <div class="card-img"><img src="assets/water-strip.jpg" alt="卡类 · 水波竹影"></div>
+          <div class="lab">卡类 · 共振档案</div>
+          <div class="p-row"><span class="k">类型</span><span class="v"><em>羁绊卡</em></span></div>
+          <div class="p-row"><span class="k">主题｜旅程</span><span class="v">漫长｜<em>合二为一</em></span></div>
+          <div class="p-row"><span class="k">心数</span><span class="v">两颗 <span class="hl">❤</span></span></div>
+          <div class="p-row"><span class="k">落款</span><span class="v"><em>@summer</em></span></div>
+          <div class="flower"><i></i><i></i><i></i><span>合二为一</span></div>
+        </div>
+        <div class="card" data-fx>
+          <div class="lab">// 告白</div>
+          <div class="motto strike">表达自己是一件很难的事<br>但心怎么变<br>都是偏向你</div>
+          <p class="lead" style="margin-top:18px">盛夏很长，愿意慢慢陪你走完这一程。</p>
+          <div class="sun-chip"><span>—— @summer · 两颗心，合二为一</span></div>
+        </div>
+      </div>
+      <div class="sec-rule"><i></i><span>CARDS · 卡类絮语</span></div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>漫长旅程 <em>LONG</em></b><span>两颗心才合二为一</span></div>
+        <div class="chip"><b>羁绊 <em>BOND</em></b><span>一次深刻的连接</span></div>
+        <div class="chip"><b>告白 <em>CONFESS</em></b><span>爱你比我重要</span></div>
+      </div>
+      <div class="chip-row" data-fx>
+        <div class="chip"><b>拼贴</b><span>画面里藏着隐喻</span></div>
+        <div class="chip"><b>相遇</b><span>自那一刻起在走</span></div>
+        <div class="chip"><b>签收</b><span>收件人留给你</span></div>
+      </div>
+      <div class="poll" data-fx>
+        <div class="poll-q"><span class="pt">单选</span><b>你最想收到哪一类卡</b></div>
+        <div class="poll-opt"><i></i>漫长旅程 · 合二为一</div>
+        <div class="poll-opt"><i></i>一句安静的告白</div>
+        <p class="poll-hint">必须经过漫长の旅程，两颗心才能合二为一 · 心怎么变都是偏向你 · 收件人一栏，留给你</p>
+      </div>
+      <div class="sec-rule"><i></i><span>FULL DOC · 完整卡类</span></div>
+      <div class="doc-links" data-fx>
+        <a class="doc-link" href="https://www.kdocs.cn/l/crAFPtKs0fEg" target="_blank" rel="noopener">
+          <span class="ico">▣</span><span>盛夏 · 完整文档</span><span class="go">↗</span>
+        </a>
+      </div>
+      </div>
+    </section>
+
+    <section id="end">
+      <div class="end-bg"></div>
+      <div class="frame"></div><span class="corner2 tl"></span><span class="corner2 br"></span>
+      <div class="sec-tag" style="justify-content:center" data-fx><span class="id">END</span> 留白</div>
+      <h2 data-fx>心怎么变<span class="g">，</span>都是偏向<span class="g">你</span></h2>
+      <p class="line" data-fx>盛夏的灯一直亮着，座位会留着。<br><em>下一个名字，留给你。</em></p>
+      <div class="sig" data-fx>// END OF SIGNAL · summer * 心怎么变都是偏向你</div>
+    </section>
+  </main>
+
+  <audio id="bgm" src="assets/MorningRain.mp3" loop preload="auto"></audio>
+  <span class="bgm-label" id="bgmLabel">♪ 夏日漫长</span>
+  <button class="music off" id="music" title="背景音乐 · 夏日漫长（点击开关）" aria-label="背景音乐开关">♫</button>
+  <div class="petals" id="petals" style="position:fixed;inset:0;pointer-events:none;z-index:3"></div>
+  <div class="footer">summer · 盛夏 // <b>心怎么变，都是偏向你</b> &nbsp;·&nbsp; 盛夏长明</div>
+  <div id="toast"></div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
